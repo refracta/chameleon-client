@@ -7,8 +7,8 @@ import {Signin} from "../../service/login/LoginToken"
 
 export default function Login() {
   const {currentColor} = useStateContext();
-  const [Email, setEmail] = useState<String>("")
-  const [Password, setPassword] = useState<String>("")
+  const [Email, setEmail] = useState<String>("");
+  const [Password, setPassword] = useState<String>("");
 
   const login = async (e: any) => {
     e.preventDefault();

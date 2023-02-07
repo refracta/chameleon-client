@@ -5,9 +5,13 @@ import {MdKeyboardArrowDown} from 'react-icons/md';
 import {UserProfile} from '../index';
 import {useStateContext} from '../../contexts/ContextProvider';
 import {NavButton} from '../../components/index';
+import {useParams} from "react-router-dom";
+import useGetUserInfo from "../../service/userInfo/UserInfoService";
 
 export default function Navbar () {
   const { currentColor, activeMenu, setActiveMenu, handleClick, isClicked, setScreenSize, screenSize } = useStateContext();
+  const params = useParams();
+  const {userName} = useGetUserInfo(params.id);
 
   useEffect(() => {
     const handleResize = () => setScreenSize(window.innerWidth);
@@ -38,7 +42,7 @@ export default function Navbar () {
           <p>
             <span className="text-gray-700 text-14">Welcome,</span>{' '}
             <span className="text-gray-700 font-bold ml-1 text-14">
-              최수연
+              {userName}
             </span>
           </p>
           <MdKeyboardArrowDown className="text-gray-400 text-14"/>
