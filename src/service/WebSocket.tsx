@@ -1,5 +1,5 @@
 import useWebSocket, {ReadyState} from "react-use-websocket"
-import React, {useCallback, useState} from 'react';
+import React, {useCallback} from 'react';
 import {WebSocketData} from "../types/Types";
 
 export default function WebSocket({bgColor, color, borderRadius, width, event} : WebSocketData) {

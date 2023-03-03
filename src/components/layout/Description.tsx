@@ -9,7 +9,7 @@ export default function Description() {
   const {currentColor, value} = useStateContext();
   return (
     <div className="contents">
-      <div className="m-2 md:my-10 mt-24 p-2 md:pr-5 md:py-10 bg-white rounded-3xl overflow-auto">
+      <div className="m-2 md:my-10 mt-24 p-2 md:pr-5 md:py-10 bg-white rounded-3xl">
         <div className="flex justify-between items-center pb-6 border-b-1 border-gray-300">
           <Header category="" title="Model01"/>
           <div className="flex gap-2">
@@ -19,7 +19,7 @@ export default function Description() {
             </Link>
           </div>
         </div>
-        <div className="mt-8 overflow-auto overflow-scroll max-h-screen">
+        <div className="mt-8 overflow-auto max-h-screen">
           {/*임시 데이터*/}
           <div className="flex my-2 items-center">
             <p className="text-lg font-bold">Model Name:ㅤ</p>

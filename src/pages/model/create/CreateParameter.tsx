@@ -3,7 +3,7 @@ import {Header, Button} from "../../../components";
 import {Link} from "react-router-dom";
 import {useStateContext} from "../../../contexts/ContextProvider";
 import {JsonForms} from "@jsonforms/react";
-import {materialCells, materialRenderers} from "@jsonforms/material-renderers";
+// import {materialCells, materialRenderers} from "@jsonforms/material-renderers";
 import {schema, uischema} from "../../../assets/Dummy"
 import {BiCheckCircle} from "react-icons/bi";
 const initialData = {};
@@ -27,16 +27,16 @@ export default function CreateParameter() {
                                 <span className="text-gray-700 flex justify-between w-full px-1 py-2 text-sm leading-5 text-left">참고사이트</span>
                             </button>
                         </div>
-                        <JsonForms
-                            schema={schema}
-                            uischema={uischema}
-                            data={data}
-                            renderers={materialRenderers}
-                            cells={materialCells}
-                            onChange={({errors, data}) => {
-                                setData(data);
-                            }}
-                        />
+                        {/*<JsonForms*/}
+                        {/*    schema={schema}*/}
+                        {/*    uischema={uischema}*/}
+                        {/*    data={data}*/}
+                        {/*    renderers={materialRenderers}*/}
+                        {/*    cells={materialCells}*/}
+                        {/*    onChange={({errors, data}) => {*/}
+                        {/*        setData(data);*/}
+                        {/*    }}*/}
+                        {/*/>*/}
                     </div>
                     <div className="flex gap-3 float-right">
                         <Link to="/model/create/description">
