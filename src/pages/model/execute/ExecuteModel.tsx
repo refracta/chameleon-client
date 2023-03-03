@@ -89,7 +89,7 @@ export default function ExecuteModel() {
         <div className="flex justify-between items-center pb-2 border-b-1 border-gray-300">
           <Header category="" title="Model01"/>
           <Link to="/model">
-            <Button style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                     className="text-sm w-full p-1.5" text="back"/>
           </Link>
         </div>
@@ -102,10 +102,10 @@ export default function ExecuteModel() {
               <p className="text-xl font-bold">Input upload</p>
               <div className="flex items-center gap-4">
                 <SubmitButton onClick={removeFileAll}
-                              style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+                              style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                               className="text-sm w-full py-1 px-1.5" text="Remove"/>
                 <SubmitButton onClick={undefined}
-                              style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+                              style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                               className="text-sm w-full py-1 px-1.5" text="Submit"/>
               </div>
             </div>

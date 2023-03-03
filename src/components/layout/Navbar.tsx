@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <div className="flex w-full justify-between p-2 relative">
-      <button type="button" onClick={handleActiveMenu} style={{color: `${currentColor}`}}
+      <button type="button" onClick={handleActiveMenu} style={{color: currentColor}}
               className="relative text-xl rounded-full p-3 hover:bg-light-gray"
       ><AiOutlineMenu/></button>
       <div className="flex">

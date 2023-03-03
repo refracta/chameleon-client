@@ -116,7 +116,7 @@ export default function CreateModelTab(number: number) {
                   className="w-16 p-2" text="back"/>
         </Link>
         <Link to="/model/create/description">
-          <Button style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+          <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                   className="w-16 p-2" text="next"/>
         </Link>
       </div>

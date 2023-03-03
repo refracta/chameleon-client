@@ -85,7 +85,7 @@ export default function SignIn() {
               </div>
 
               <div className="text-center lg:text-left">
-                <SubmitButton style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+                <SubmitButton style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                         className="w-full" text="Login" event={SignIn} onClick={login}/>
               </div>
             </form>

@@ -48,7 +48,7 @@ export default function Payment() {
                     className="text-sm p-2" text="취소"/>
           </Link>
           <Link to="/account">
-            <Button style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                     className="text-sm p-2" text="확인"/>
           </Link>
         </div>

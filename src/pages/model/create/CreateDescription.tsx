@@ -21,7 +21,7 @@ export default function CreateDescription() {
                     className="w-16 p-2" text="back"/>
           </Link>
           <Link to="/model/create/parameter">
-            <Button style={{backgroundColor: `${currentColor}`, color: "white", borderRadius: "10px"}}
+            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
                     className="w-16 p-2" text="next"/>
           </Link>
         </div>
