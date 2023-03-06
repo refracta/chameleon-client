@@ -128,7 +128,7 @@ export default function Payment() {
                         <button
                             onClick={KaKaopay}
                             className={`text-sm p-2 hover:drop-shadow-xl whitespace-nowrap`}
-                            style={{backgroundColor: 'black', color: 'white', borderRadius: '10px'}}
+                            style={{backgroundColor: "black", color: "white", borderRadius: "7px"}}
                         >Charge</button>
                     </div>
                     <div className = "text-center">
@@ -149,7 +149,7 @@ export default function Payment() {
                         <button
                             onClick={Payco}
                             className={`text-sm p-2 hover:drop-shadow-xl whitespace-nowrap`}
-                            style={{backgroundColor: 'black', color: 'white', borderRadius: '10px'}}
+                            style={{backgroundColor: "black", color: "white", borderRadius: "7px"}}
                         >Charge</button>
                     </div>
                     <div className = "text-center">
@@ -170,7 +170,7 @@ export default function Payment() {
                         <button
                             onClick={Toss}
                             className={`text-sm p-2 hover:drop-shadow-xl whitespace-nowrap`}
-                            style={{backgroundColor: 'black', color: 'white', borderRadius: '10px'}}
+                            style={{backgroundColor: "black", color: "white", borderRadius: "7px"}}
                         >Charge</button>
                     </div>
                 </div>

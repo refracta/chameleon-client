@@ -112,11 +112,11 @@ export default function CreateModelTab(number: number) {
       </div>
       <div className="flex gap-3 float-right">
         <Link to="/model">
-          <Button style={{backgroundColor: "white", color: "black", borderRadius: "10px"}}
+          <Button style={{backgroundColor: "white", color: "black", borderRadius: "7px"}}
                   className="w-16 p-2" text="back"/>
         </Link>
         <Link to="/model/create/description">
-          <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+          <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                   className="w-16 p-2" text="next"/>
         </Link>
       </div>

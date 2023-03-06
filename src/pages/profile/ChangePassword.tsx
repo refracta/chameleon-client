@@ -44,11 +44,11 @@ export default function Payment() {
         </div>
         <div className="flex gap-3 float-right">
           <Link to="/account">
-            <Button style={{backgroundColor: "white", color: "black", borderRadius: "10px"}}
+            <Button style={{backgroundColor: "white", color: "black", borderRadius: "7px"}}
                     className="text-sm p-2" text="취소"/>
           </Link>
           <Link to="/account">
-            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                     className="text-sm p-2" text="확인"/>
           </Link>
         </div>

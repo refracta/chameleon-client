@@ -66,7 +66,7 @@ export default function Websocket() {
               event = {WebSocket}
               color="white"
               bgColor={currentColor}
-              borderRadius="10px"
+              borderRadius="7px"
               width="full"
           />
         </span>

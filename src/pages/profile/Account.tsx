@@ -34,13 +34,13 @@ export default function Account() {
             <div onClick={() => handleClick('changeName')}>
               {isClicked.changeName ? (
                 <div className="flex gap-3">
-                  <Button style={{backgroundColor: "white", color: "black", borderRadius: "10px"}}
+                  <Button style={{backgroundColor: "white", color: "black", borderRadius: "7px"}}
                           className="text-sm p-2" text="취소"/>
-                  <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+                  <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                           className="text-sm p-2" text="확인"/>
                 </div>
               ) : (
-                <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+                <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                         className="text-sm p-2" text="이름 변경"/>
               )}
             </div>
@@ -52,7 +52,7 @@ export default function Account() {
             <HiOutlineLockClosed className="mx-4 w-10 h-10"/>
             <p className="w-full p-2">비밀번호</p>
             <Link to="/change-password">
-              <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+              <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                       className="text-sm p-2" text="수정"/>
             </Link>
           </div>

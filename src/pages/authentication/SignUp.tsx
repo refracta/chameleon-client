@@ -150,7 +150,7 @@ export default function SignUp() {
                   <span className={`message ${IsPassword ? 'success' : 'error'}`}>{PasswordMessage} </span>}
               </div>
               <div className="text-center lg:text-left">
-                <SubmitButton style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+                <SubmitButton style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                               className="w-full" text="SignUp" event={SignUp} onClick={signup}/>
               </div>
             </form>

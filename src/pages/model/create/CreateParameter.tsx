@@ -40,11 +40,11 @@ export default function CreateParameter() {
                     </div>
                     <div className="flex gap-3 float-right">
                         <Link to="/model/create/description">
-                            <Button style={{backgroundColor: "white", color: "black", borderRadius: "10px"}}
+                            <Button style={{backgroundColor: "white", color: "black", borderRadius: "7px"}}
                                     className="w-16 p-2" text="back"/>
                         </Link>
                         <Link to="/model">
-                            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+                            <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                                     className="w-16 p-2" text="create"/>
                         </Link>
                     </div>

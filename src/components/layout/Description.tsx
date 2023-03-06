@@ -10,11 +10,11 @@ export default function Description() {
   return (
     <div className="contents">
       <div className="m-2 md:my-10 mt-24 p-2 md:pr-5 md:py-10 bg-white rounded-3xl">
-        <div className="flex justify-between items-center pb-6 border-b-1 border-gray-300">
+        <div className="flex justify-between items-center overflow-auto pb-6 border-b-1 border-gray-300">
           <Header category="" title="Model01"/>
           <div className="flex gap-2">
             <Link to="/model/execute">
-              <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "10px"}}
+              <Button style={{backgroundColor: currentColor, color: "white", borderRadius: "7px"}}
                       className="text-sm w-full p-1.5" text="start"/>
             </Link>
           </div>
